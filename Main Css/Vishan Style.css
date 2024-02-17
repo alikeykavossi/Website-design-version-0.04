@@ -561,7 +561,8 @@ html {
 }
 .headerBottomLeftImg {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header-wrapper {
   display: flex;
@@ -752,7 +753,8 @@ margin-top: 3rem;
 }
 .galleryPhoto {
   max-width: 25rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 1rem;
 }
 
@@ -947,6 +949,21 @@ margin-top: 3rem;
   }
   .footerText {
     height: 15rem;
+  }
+  .footerEmail::-webkit-input-placeholder{
+    color: var(--DarkJungleGreen);
+  }
+  .footerEmail::-moz-placeholder{
+    color: var(--DarkJungleGreen);
+  }
+  .footerEmail:-ms-input-placeholder{
+    color: var(--DarkJungleGreen);
+  }
+  .footerEmail::-ms-input-placeholder{
+    color: var(--DarkJungleGreen);
+  }
+  .footerEmail::placeholder{
+    color: var(--DarkJungleGreen);
   }
   .send {
     width: 22rem;
